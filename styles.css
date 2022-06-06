@@ -3,12 +3,17 @@
   padding: 0;
 }
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
+
+div{
+  box-sizing: border-box;
+}
+/*Nav Bar Styling*/
 .nav {
   position: absolute;
   width: 100%;
-  height: 54px;
+  height: 55px;
   top: 0;
   background-color: #ffffff;
   border-bottom: 1px solid #dbdbdb;
@@ -72,3 +77,49 @@ body {
 
   color: #2b2b2b;
 }
+
+
+
+.post{
+  background-color: #fafafa;
+  margin-top: 10em;
+  width: 600px;
+  display: block;
+  margin-left: 20em;
+  ;
+}
+
+h2{
+  background-color:#fafafa;
+  margin: 0;
+  padding: 2px;
+}
+.container{
+  width: 600px;
+  margin: auto;
+  
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h2, .post p, .post span{
+  padding: 10px;
+  margin: 0;
+}
+
+.post .post-header div:first-child{
+  display: inline-block;
+  width: 80%;
+  padding: 10px;
+  
+}
+.post .post-header div:last-child{
+  display: inline-block;
+  width: 20%;
+  background-color: #fafafa;
+  padding:10px;
+}
+
+ 
